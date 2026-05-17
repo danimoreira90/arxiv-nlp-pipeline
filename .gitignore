@@ -1,0 +1,28 @@
+# Ambiente
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# uv
+.uv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Config de ferramentas de assistência — NUNCA versionar
+.claude/
+.cursor/
+.aider*
+CLAUDE.md
+
+# Artefatos de trabalho local: ignora todo .md exceto README
+*.md
+!README.md
+
+# Outputs pesados (mantém a pasta, ignora conteúdo gerado)
+outputs/*
+!outputs/.gitkeep
+
+# Sistema
+.DS_Store
