@@ -10,7 +10,7 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Config de ferramentas de assistência — NUNCA versionar
+# Config de ferramentas de assistencia
 .claude/
 .cursor/
 .aider*
@@ -20,9 +20,13 @@ CLAUDE.md
 *.md
 !README.md
 
-# Outputs pesados (mantém a pasta, ignora conteúdo gerado)
+# Outputs gerados
 outputs/*
 !outputs/.gitkeep
+
+# Dataset bruto do Kaggle e checkpoints — grandes demais para versionar
+data/*.json
+data/_chk_*.parquet
 
 # Sistema
 .DS_Store
