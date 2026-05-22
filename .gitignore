@@ -30,3 +30,10 @@ data/_chk_*.parquet
 
 # Sistema
 .DS_Store
+
+# Backups locais do notebook
+notebook.backup.ipynb
+notebook.*.backup.ipynb
+
+# PyVis injeta libs JS quando gera o grafo HTML
+lib/
