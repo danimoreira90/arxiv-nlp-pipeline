@@ -1,5 +1,9 @@
 # arxiv-nlp-pipeline
 
+> **Como avaliar este projeto:** abra o `notebook.ipynb` diretamente no
+> GitHub — todas as células estão executadas, com figuras e tabelas
+> embutidas. A síntese principal está na seção 5.2.
+
 Pipeline de NLP sobre abstracts científicos do arXiv. Analisa 5.400 artigos de cinco
 áreas (cs.LG, stat.ML, q-bio.NC, econ.EM, eess.SP) para caracterizar o vocabulário de
 cada disciplina, identificar padrões de publicação, extrair tópicos, treinar
@@ -137,3 +141,15 @@ Todos os modelos estocásticos usam `random_state=42` ou `seed=42`:
 | `outputs/fig_ner_entities.png` | Top entidades NER (ORG, PERSON, GPE) |
 | `outputs/fig_knowledge_graph.png` | Grafo de co-ocorrência — visualização estática |
 | `outputs/grafo.html` | Grafo interativo PyVis (abrir no browser) |
+
+## Para o avaliador
+
+Este repositório é a entrega completa do trabalho. O notebook está
+executado e auto-explicativo. Caso prefira leitura offline, há um PDF
+do notebook em `entregavel/notebook.pdf` (no anexo do Moodle).
+
+Resumo dos achados em **5.2 — Cinco áreas, um idioma emergente**, no
+fim do notebook.
+
+# Pacotes para submissão
+entregavel/
